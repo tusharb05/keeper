@@ -1,0 +1,20 @@
+.header{
+    font-weight: 200;
+    background-color: #867AE9;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    color:aliceblue;
+    user-select: none;
+}
+/* 1px 3px 5px rgba(0,0,0,0.1) */
+.header h1{
+    /* margin-left: 100px */
+    font-family: "Montserrat", sans-serif;
+}
+.note{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 6px;
+}

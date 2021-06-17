@@ -1,0 +1,66 @@
+.single-note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 200px;
+    margin: 16px;
+    transition: all 350ms;
+    height: auto;
+    align-self: flex-start;
+}
+.single-note:hover{
+    box-shadow: 5px 5px 7px #ccc
+}
+.single-note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+.single-note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.submit{
+    padding: 0;
+    background-color: #867AE9;
+    box-shadow: none;
+    border: none;
+    border-radius: 150px;
+    padding:12px;
+    padding-top:11px;
+    padding-bottom:11px;
+    color: white;
+    margin-left:120px;
+    transition: all 500ms;
+    cursor: pointer;
+}
+.read-more{
+    color: rgb(102, 110, 216);
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+.edit-btn{
+    padding: 0;
+    background-color: #867AE9;
+    box-shadow: none;
+    border: none;
+    border-radius: 150px;
+    padding:12px;
+    padding-top:11px;
+    padding-bottom:11px;
+    color: white;
+    /* margin-left:120px; */
+    transition: all 500ms;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.bigger-note{
+    width: 300px;
+}
